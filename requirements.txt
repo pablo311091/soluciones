@@ -1,0 +1,28 @@
+
+# Sentiment Webhook Dependencies - Python
+# Hotel Concierge MVP - Marriott Singapore
+
+# Web Framework
+Flask==3.0.0
+Werkzeug==3.0.1
+
+# NLP y Sentiment Analysis
+textblob==0.17.1
+nltk==3.8.1
+
+# Utilidades
+python-dotenv==1.0.0
+
+# Logging y Monitoring
+python-json-logger==2.0.7
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+requests==2.31.0
+
+# Production Server
+gunicorn==21.2.0
+
+# CORS (si se necesita acceso desde frontend)
+flask-cors==4.0.0
