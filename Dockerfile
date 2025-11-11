@@ -19,4 +19,4 @@ COPY sentiment_webhook.py .
 
 # Comando para ejecutar la aplicación con Gunicorn (servidor de producción)
 # Gunicorn usará la variable $PORT que Railway le proporciona automáticamente.
-CMD ["gunicorn", "sentiment_webhook:app", "--bind", "0.0.0.0:$PORT"]
+CMD gunicorn sentiment_webhook:app --bind 0.0.0.0:$PORT
